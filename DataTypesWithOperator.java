@@ -22,29 +22,29 @@ public class Main
 		
 		
 		int b = 2;
-        int c = 0;
-        int a = 1;
-        int k = (b*b - (4*a*c))/(2*a);
-        int k2 = b*b - (4*a*c)/(2*a);
-        System.out.println(k);
-        System.out.println(k2); // getting different result on changing the execution order using paranthesis.
- 
-     
-        // integer + char = integer
-        // integer + float = float
-        // float + double = double
+	        int c = 0;
+	        int a = 1;
+	        int k = (b*b - (4*a*c))/(2*a);
+	        int k2 = b*b - (4*a*c)/(2*a);
+	        System.out.println(k);
+	        System.out.println(k2); // getting different result on changing the execution order using paranthesis.
+	 
+	     
+	        // integer + char = integer
+	        // integer + float = float
+	        // float + double = double
 
-Note : increment and decrement operator operate on all data types except Booleans.        
-// Quick Quiz: What will be the value of the following expression(x).
-
-int y=7;
-int x = ++y*8;
-// value of x?
-System.out.println(x);
-
-char ch = 'B';
-ch++; 
-System.out.println(ch);
+		Note : increment and decrement operator operate on all data types except Booleans.        
+		// Quick Quiz: What will be the value of the following expression(x).
+		
+		int y=7;
+		int x = ++y*8;
+		// value of x?
+		System.out.println(x);
+		
+		char ch = 'B';
+		ch++; 
+		System.out.println(ch);
 
 
 	}
