@@ -33,7 +33,8 @@ public class Main
         // integer + char = integer
         // integer + float = float
         // float + double = double
-        
+
+Note : increment and decrement operator operate on all data types except Booleans.        
 // Quick Quiz: What will be the value of the following expression(x).
 
 int y=7;
